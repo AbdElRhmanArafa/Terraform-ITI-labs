@@ -1,6 +1,6 @@
 module "network" {
-  source = "./modules/network"
-  project_name = var.project_name
+  source         = "./modules/network"
+  project_name   = var.project_name
   vpc_cidr_block = var.vpc_cidr_block
-  subnets_list = var.subnets_list
+  subnets_list   = var.subnets_list
 }
